@@ -325,6 +325,4 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 // ---------------- Login ----------------
-require("dotenv").config();
-
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);
