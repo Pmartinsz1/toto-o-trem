@@ -327,4 +327,6 @@ client.on("interactionCreate", async (interaction) => {
 // ---------------- Login ----------------
 require("dotenv").config();
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN).catch(err => {
+  console.error("Erro ao conectar no Discord:", err);
+});
