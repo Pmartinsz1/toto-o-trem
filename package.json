@@ -1,9 +1,10 @@
 {
   "name": "bot-discord",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Bot do Discord rodando no Render",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "discord.js": "^14.16.3",
@@ -11,7 +12,6 @@
     "dotenv": "^16.4.5",
     "better-sqlite3": "^9.4.0"
   },
-  "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC"
